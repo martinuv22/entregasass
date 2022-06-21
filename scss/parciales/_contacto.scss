@@ -13,11 +13,11 @@
 
 .contenido {
     &__titulo {
-        color: rgb(6, 6, 221);
+        color: map-get($colores, "cont");
         font-family: 'Kodchasan', sans-serif;
     }
     &__sectionf {
-        color: rgb(6, 6, 221);
+        color: map-get($colores, "cont");
         padding: 2rem 30%;
         font-family: 'Poller One', cursive;
         text-align: center;
@@ -31,8 +31,8 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
         border-radius: 10%;
-        color: rgb(6, 6, 221);
-        background-color: goldenrod;
+        color: map-get($colores, "cont");
+        color: map-get($colores, "dorado");
         border: solid 0.5rem brown;
         transition: padding 3s;
         &:hover {

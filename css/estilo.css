@@ -6,16 +6,16 @@
 
 body {
   background-color: black;
-  color: white; }
+  color: #f3ebeb; }
 
 h1 {
-  color: gold; }
+  color: #ffd700; }
 
 li {
   transition: background 3s; }
 
 li:hover {
-  background-color: gold; }
+  color: #ffd700; }
 
 /*para index*/
 .div__imagen {
@@ -37,7 +37,7 @@ li:hover {
   height: 100vh;
   align-items: center; }
   .frame__frase {
-    color: gold; }
+    color: #ffd700; }
 
 /* Pagina donde comprar carrousel*/
 .carousel__dondecomprar img {
@@ -73,7 +73,7 @@ li:hover {
   margin-bottom: 2rem;
   border-radius: 10%;
   color: #0606dd;
-  background-color: goldenrod;
+  color: #ffd700;
   border: solid 0.5rem brown;
   transition: padding 3s; }
   .contenido__boton:hover {

@@ -8,11 +8,11 @@
 
 body {
     background-color: black;
-    color: white;
+    color: map-get($colores, "blanco");
 }
 
 h1 {
-    color: gold;
+    color: map-get($colores, "dorado");
 }
 
 li {
@@ -20,5 +20,5 @@ li {
 }
 
 li:hover {
-    background-color: gold;
+    color: map-get($colores, "dorado");
 }
