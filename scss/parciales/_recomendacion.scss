@@ -1,0 +1,15 @@
+/*paginas recomendaciones*/
+
+.cripto img {
+    height: 50vh;
+    width: 80vh;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+}
+
+.boton__recomendacion {
+    @extend .contenido__boton
+}

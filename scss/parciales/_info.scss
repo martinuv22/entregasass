@@ -10,3 +10,11 @@
         color: map-get($colores, "dorado");
     }
 }
+
+.recordatorio {
+    color: map-get($colores, "destacado");
+}
+
+.boton__info {
+    @extend .contenido__boton
+}
