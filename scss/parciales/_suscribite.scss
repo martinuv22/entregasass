@@ -1,27 +1,24 @@
-/*pagina contacto*/
-
-.grilla__contacto {
+.grilla__suscribite {
     display: grid;
-    grid-template-areas: "contenido3" "pie3";
+    grid-template-areas: "sucripcion3" "pie4";
     grid-template-columns: 1fr;
     grid-template-rows: 90% 10%;
 }
 
-.contenidos {
-    grid-area: contenido3;
+.suscripciones {
+    grid-area: sucripcion3;
 }
 
-.contenido {
+.suscripcion {
     &__titulo {
-        color: map-get($colores, "cont");
+        color: map-get($colores, "destacado");
         font-family: 'Kodchasan', sans-serif;
     }
     &__sectionf {
-        color: map-get($colores, "cont");
+        color: map-get($colores, "dorado");
         padding: 2rem 30%;
         font-family: 'Poller One', cursive;
         text-align: center;
-        color: map-get($colores, "dorado");
         display: flex;
         flex-direction: column;
         height: 40rem;
@@ -39,8 +36,11 @@
             padding: 2rem;
         }
     }
+    &__aviso {
+        color: map-get($colores, "destacado");
+    }
 }
 
-.pie__contacto {
-    grid-area: pie3;
+.pie__supcripcion {
+    grid-area: pie4;
 }

@@ -1,7 +1,7 @@
 /*para index*/
 
 .div__imagen {
-    margin: auto;
+    margin: 2rem;
     border-radius: 20%;
     object-fit: cover;
     width: 47rem;
@@ -11,4 +11,8 @@
         width: 55rem;
         height: 31rem;
     }
+}
+
+.body__p {
+    color: map-get($colores, "destacado");
 }

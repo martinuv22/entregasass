@@ -1,24 +1,28 @@
-/*Reset y atributos para todas las paginas*/
-
-* {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: black;
-    color: map-get($colores, "blanco");
-}
-
-h1 {
-    color: map-get($colores, "dorado");
-}
-
-li {
-    transition: background 3s;
-}
-
-li:hover {
-    color: map-get($colores, "dorado");
-}
+    /*Reset y atributos para todas las paginas*/
+    
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: map-get($colores, "back");
+        color: map-get($colores, "blanco");
+    }
+    
+    h1 {
+        color: map-get($colores, "dorado");
+    }
+    
+    h2 {
+        color: map-get($colores, "dorado");
+    }
+    
+    li {
+        transition: background 3s;
+    }
+    
+    li:hover {
+        background: map-get($colores, "dorado");
+    }
