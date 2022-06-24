@@ -1,5 +1,17 @@
 /* Pagina donde comprar carrousel*/
 
 .carousel__dondecomprar img {
-    height: 80vh;
+    height: 90vh;
+    width: 100%;
+}
+
+.boton__dondecomprar {
+    border-radius: 5%;
+    color: map-get($colores, "cont");
+    background-color: map-get($colores, "dorado");
+    border: solid 0.2rem map-get($colores, "boton");
+}
+
+.titulo_dondecomprar {
+    font-size: medium;
 }
